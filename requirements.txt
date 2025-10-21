@@ -1,24 +1,21 @@
-# --- Core Runtime ---
-python-dotenv==1.1.1
+# --- Core runtime ---
 streamlit==1.49.0
-unstructured==0.18.15
-nltk==3.9.1
+python-dotenv==1.1.1
 protobuf==6.32.1
+nltk==3.9.1
+requests==2.32.3
 
-# --- LangChain Ecosystem (Python 3.13 Compatible) ---
+# --- LangChain stack ---
 langchain==0.3.26
 langchain-core==0.3.79
 langchain-community==0.3.26
 langchain-chroma==0.1.7
 langchain-groq==0.3.8
 langchain-huggingface==0.1.2
-langchain-text-splitters==0.3.11
 
-# --- Vector Store ---
-chromadb==0.5.3  # ✅ compatible with langchain-chroma 0.1.7
+# --- Vector store (Chroma) ---
+chromadb==0.5.3
 
-# --- Supporting Libraries ---
+# --- Supporting libs ---
 numpy>=2.1.0
 pandas==2.2.3
-requests==2.32.3
-tqdm==4.67.1
