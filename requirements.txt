@@ -11,3 +11,10 @@ langchain-core==0.3.79
 langchain-ollama==0.3.10
 langchain-text-splitters==0.3.11
 nltk==3.9.1
+
+
+numpy==2.1.3          # ✅ add this explicitly (Python 3.13 compatible)
+pandas==2.2.3         # ✅ required by Streamlit & unstructured
+requests==2.32.3      # ✅ required by LangChain & unstructured
+tqdm==4.67.1          # ✅ progress bar utility (used by NLTK + Unstructured)
+chromadb==1.2.1       # ✅ vector DB backend for langchain-chroma
