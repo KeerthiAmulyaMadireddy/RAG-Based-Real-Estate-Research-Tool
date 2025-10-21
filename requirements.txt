@@ -1,21 +1,13 @@
-# --- LangChain Ecosystem (compatible versions) ---
-langchain==0.3.27
-langchain-community==0.3.29
-langchain-chroma==0.2.5
-langchain-groq==0.3.7
-langchain-huggingface==0.3.1
+python-dotenv==1.1.1
+streamlit==1.49.0
+unstructured==0.18.15
+langchain-chroma==0.1.4
+langchain-groq==0.3.8
+langchain-community==0.3.26
+protobuf==6.32.1
+langchain-huggingface==0.1.2
+langchain==0.3.26
+langchain-core==0.3.79
+langchain-ollama==0.3.10
 langchain-text-splitters==0.3.11
-
-# --- Core Dependencies ---
-python-dotenv==1.0.1
-sentence-transformers==5.0.0
-nltk==3.9.2
-requests==2.32.5
-streamlit==1.45.0
-
-# --- Utilities ---
-chromadb==1.2.1
-pandas==2.2.3
-numpy==2.0.2
-tqdm==4.66.4
-protobuf==6.33.0
+nltk==3.9.1
