@@ -7,15 +7,15 @@ langchain-huggingface==0.3.1
 langchain-text-splitters==0.3.11
 
 # --- Core Dependencies ---
-python-dotenv==1.1.0
+python-dotenv==1.0.1
 sentence-transformers==5.0.0
 nltk==3.9.2
-requests==2.32.3
+requests==2.32.5
 streamlit==1.45.0
 
-# --- Optional for vector storage, parsing, etc. ---
+# --- Utilities ---
 chromadb==1.2.1
-pandas==2.3.3
-numpy==2.3.4
-tqdm==4.67.1
+pandas==2.2.3
+numpy==2.0.2
+tqdm==4.66.4
 protobuf==6.33.0
