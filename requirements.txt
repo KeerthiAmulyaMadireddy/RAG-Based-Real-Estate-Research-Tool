@@ -1,9 +1,6 @@
-# --- Core dependencies ---
 python-dotenv==1.1.1
 streamlit==1.49.0
 unstructured==0.18.15
-
-# --- LangChain ecosystem ---
 langchain==0.3.26
 langchain-core==0.3.79
 langchain-community==0.3.26
@@ -12,8 +9,6 @@ langchain-groq==0.3.8
 langchain-huggingface==0.1.2
 langchain-ollama==0.3.10
 langchain-text-splitters==0.3.11
-
-# --- Supporting libraries ---
 protobuf==6.32.1
 nltk==3.9.1
 numpy==1.26.4
